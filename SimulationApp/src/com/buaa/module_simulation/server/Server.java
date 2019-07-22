@@ -1,6 +1,6 @@
-package server;
+package com.buaa.module_simulation.server;
 
-import bean.Customer;
+import com.buaa.module_simulation.bean.Customer;
 
 public class Server {
     private int idleTime;

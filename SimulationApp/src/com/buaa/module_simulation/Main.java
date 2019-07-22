@@ -1,7 +1,9 @@
-import app.Simulator;
-import bean.Customer;
-import server.Server;
-import server.WaitingQueue;
+package com.buaa.module_simulation;
+
+import com.buaa.module_simulation.app.Simulator;
+import com.buaa.module_simulation.bean.Customer;
+import com.buaa.module_simulation.server.Server;
+import com.buaa.module_simulation.server.WaitingQueue;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -19,10 +21,6 @@ public class Main {
         buildCustomers();
         Simulator diningSimulator = new Simulator(customers, servers, queues);
         diningSimulator.run();
-        for (Customer customer : customers) {
-            System.out.println(customer);
-            System.out.println("------------------");
-        }
     }
 
     private static void buildServers() {
@@ -44,7 +42,6 @@ public class Main {
             customers.add(customer);
         }
     }
-
 
     private static int getInternalArrivalTime() {
         return getRandBetween(0, 10);

@@ -1,6 +1,6 @@
-package server;
+package com.buaa.module_simulation.server;
 
-import bean.Customer;
+import com.buaa.module_simulation.bean.Customer;
 
 import java.util.ArrayList;
 
@@ -40,4 +40,5 @@ public class WaitingQueue {
     public boolean isEmpty() {
         return customers.isEmpty();
     }
+
 }

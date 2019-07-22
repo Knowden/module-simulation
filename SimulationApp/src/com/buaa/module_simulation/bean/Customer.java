@@ -1,4 +1,4 @@
-package bean;
+package com.buaa.module_simulation.bean;
 
 public class Customer {
     private int arriveTime;

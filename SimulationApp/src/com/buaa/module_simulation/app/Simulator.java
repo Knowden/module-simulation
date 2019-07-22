@@ -1,8 +1,8 @@
-package app;
+package com.buaa.module_simulation.app;
 
-import bean.Customer;
-import server.Server;
-import server.WaitingQueue;
+import com.buaa.module_simulation.bean.Customer;
+import com.buaa.module_simulation.server.Server;
+import com.buaa.module_simulation.server.WaitingQueue;
 import java.util.ArrayList;
 import java.util.Random;
 
