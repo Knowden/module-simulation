@@ -55,55 +55,21 @@
 										"$ref": "AAAAAAFsGM1fMFxcI8E="
 									},
 									"font": "Arial;13;0",
-									"left": 194,
-									"top": 42,
-									"width": 181,
+									"left": 178,
+									"top": 50,
+									"width": 205,
 									"height": 13,
-									"text": "Customer arrive at dining hall",
+									"text": "Patients arrive at community client",
 									"wordWrap": true
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 184,
-							"top": 32,
-							"width": 201,
-							"height": 46,
+							"left": 168,
+							"top": 40,
+							"width": 225,
+							"height": 33,
 							"nameLabel": {
 								"$ref": "AAAAAAFsGM1fMFxd9LE="
-							}
-						},
-						{
-							"_type": "FCDecisionView",
-							"_id": "AAAAAAFsGM5lfVxznCA=",
-							"_parent": {
-								"$ref": "AAAAAAFsGMzfu1xWnKM="
-							},
-							"model": {
-								"$ref": "AAAAAAFsGM5lfVxx4eY="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFsGM5lflx0G0g=",
-									"_parent": {
-										"$ref": "AAAAAAFsGM5lfVxznCA="
-									},
-									"font": "Arial;13;0",
-									"left": 246,
-									"top": 205,
-									"width": 76,
-									"height": 26,
-									"text": "Window Free？",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 208,
-							"top": 192,
-							"width": 152,
-							"height": 52,
-							"nameLabel": {
-								"$ref": "AAAAAAFsGM5lflx0G0g="
 							}
 						},
 						{
@@ -125,16 +91,16 @@
 									"font": "Arial;13;0",
 									"left": 178,
 									"top": 130,
-									"width": 197,
+									"width": 205,
 									"height": 13,
-									"text": "Customer choose window",
+									"text": "Patients register in the hospital",
 									"wordWrap": true
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 168,
 							"top": 120,
-							"width": 217,
+							"width": 225,
 							"height": 33,
 							"nameLabel": {
 								"$ref": "AAAAAAFsGM69elx+lfA="
@@ -162,7 +128,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 294,
-									"top": 91,
+									"top": 89,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -180,482 +146,231 @@
 								"$ref": "AAAAAAFsGM1fMFxcI8E="
 							},
 							"lineStyle": 2,
-							"points": "280:77;280:120",
+							"points": "280:72;280:120",
 							"nameLabel": {
 								"$ref": "AAAAAAFsGM7+61yIpaE="
 							}
 						},
 						{
-							"_type": "FCFlowView",
-							"_id": "AAAAAAFsGM8dhVyQrxI=",
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFsIsYvVZ1s3Ts=",
 							"_parent": {
 								"$ref": "AAAAAAFsGMzfu1xWnKM="
 							},
 							"model": {
-								"$ref": "AAAAAAFsGM8dhVyOCwI="
+								"$ref": "AAAAAAFsIsYvVZ1q4oU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFsIsYvVZ1tqjI=",
+									"_parent": {
+										"$ref": "AAAAAAFsIsYvVZ1s3Ts="
+									},
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 210,
+									"width": 205,
+									"height": 13,
+									"text": "Patients visit doctor",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 168,
+							"top": 200,
+							"width": 225,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFsIsYvVZ1tqjI="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFsIsYvnJ10Oa4=",
+							"_parent": {
+								"$ref": "AAAAAAFsGMzfu1xWnKM="
+							},
+							"model": {
+								"$ref": "AAAAAAFsIsYvnJ1yFpU="
 							},
 							"subViews": [
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFsGM8dhVyRmEI=",
+									"_id": "AAAAAAFsIsYvnJ11xr4=",
 									"_parent": {
-										"$ref": "AAAAAAFsGM8dhVyQrxI="
+										"$ref": "AAAAAAFsIsYvnJ10Oa4="
 									},
 									"model": {
-										"$ref": "AAAAAAFsGM8dhVyOCwI="
+										"$ref": "AAAAAAFsIsYvnJ1yFpU="
 									},
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 294,
-									"top": 165,
+									"top": 169,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAFsGM8dhVyQrxI="
+										"$ref": "AAAAAAFsIsYvnJ10Oa4="
 									},
 									"edgePosition": 1
 								}
 							],
 							"font": "Arial;13;0",
 							"head": {
-								"$ref": "AAAAAAFsGM5lfVxznCA="
+								"$ref": "AAAAAAFsIsYvVZ1s3Ts="
 							},
 							"tail": {
 								"$ref": "AAAAAAFsGM69elx9/3g="
 							},
 							"lineStyle": 2,
-							"points": "280:152;280:192",
+							"points": "280:152;280:200",
 							"nameLabel": {
-								"$ref": "AAAAAAFsGM8dhVyRmEI="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAFsGM9LlFyZ3x8=",
-							"_parent": {
-								"$ref": "AAAAAAFsGMzfu1xWnKM="
-							},
-							"model": {
-								"$ref": "AAAAAAFsGM9LlFyXxQw="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFsGM9LlFyaJK8=",
-									"_parent": {
-										"$ref": "AAAAAAFsGM9LlFyZ3x8="
-									},
-									"font": "Arial;13;0",
-									"left": 170,
-									"top": 306,
-									"width": 221,
-									"height": 13,
-									"text": "Customer get meal",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 160,
-							"top": 296,
-							"width": 241,
-							"height": 33,
-							"nameLabel": {
-								"$ref": "AAAAAAFsGM9LlFyaJK8="
-							}
-						},
-						{
-							"_type": "FCFlowView",
-							"_id": "AAAAAAFsGM+fUVyn4Kk=",
-							"_parent": {
-								"$ref": "AAAAAAFsGMzfu1xWnKM="
-							},
-							"model": {
-								"$ref": "AAAAAAFsGM+fUVylSpg="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFsGM+fUVyoyfw=",
-									"_parent": {
-										"$ref": "AAAAAAFsGM+fUVyn4Kk="
-									},
-									"model": {
-										"$ref": "AAAAAAFsGM+fUVylSpg="
-									},
-									"font": "Arial;13;0",
-									"left": 284,
-									"top": 262,
-									"width": 21.20751953125,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFsGM+fUVyn4Kk="
-									},
-									"edgePosition": 1,
-									"text": "Yes"
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFsGM9LlFyZ3x8="
-							},
-							"tail": {
-								"$ref": "AAAAAAFsGM5lfVxznCA="
-							},
-							"lineStyle": 2,
-							"points": "280:243;280:296",
-							"nameLabel": {
-								"$ref": "AAAAAAFsGM+fUVyoyfw="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAFsGM/RYlyxdYE=",
-							"_parent": {
-								"$ref": "AAAAAAFsGMzfu1xWnKM="
-							},
-							"model": {
-								"$ref": "AAAAAAFsGM/RYlyv5Gc="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFsGM/RYlyyvUE=",
-									"_parent": {
-										"$ref": "AAAAAAFsGM/RYlyxdYE="
-									},
-									"font": "Arial;13;0",
-									"left": 402,
-									"top": 250,
-									"width": 165,
-									"height": 26,
-									"text": "Customer wait in queue for meal",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 392,
-							"top": 240,
-							"width": 185,
-							"height": 46,
-							"nameLabel": {
-								"$ref": "AAAAAAFsGM/RYlyyvUE="
-							}
-						},
-						{
-							"_type": "FCFlowView",
-							"_id": "AAAAAAFsGNCJwVzXONk=",
-							"_parent": {
-								"$ref": "AAAAAAFsGMzfu1xWnKM="
-							},
-							"model": {
-								"$ref": "AAAAAAFsGNCJwVzVeUo="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFsGNCJwlzYyrw=",
-									"_parent": {
-										"$ref": "AAAAAAFsGNCJwVzXONk="
-									},
-									"model": {
-										"$ref": "AAAAAAFsGNCJwVzVeUo="
-									},
-									"font": "Arial;13;0",
-									"left": 446,
-									"top": 209,
-									"width": 16.6181640625,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFsGNCJwVzXONk="
-									},
-									"edgePosition": 1,
-									"text": "No"
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFsGM/RYlyxdYE="
-							},
-							"tail": {
-								"$ref": "AAAAAAFsGM5lfVxznCA="
-							},
-							"lineStyle": 2,
-							"points": "359:216;440:216;440:240",
-							"nameLabel": {
-								"$ref": "AAAAAAFsGNCJwlzYyrw="
-							}
-						},
-						{
-							"_type": "FCFlowView",
-							"_id": "AAAAAAFsGNGK6lz0ni4=",
-							"_parent": {
-								"$ref": "AAAAAAFsGMzfu1xWnKM="
-							},
-							"model": {
-								"$ref": "AAAAAAFsGNGK6VzyF90="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFsGNGK6lz1E74=",
-									"_parent": {
-										"$ref": "AAAAAAFsGNGK6lz0ni4="
-									},
-									"model": {
-										"$ref": "AAAAAAFsGNGK6VzyF90="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 439,
-									"top": 321,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFsGNGK6lz0ni4="
-									},
-									"edgePosition": 1
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFsGM9LlFyZ3x8="
-							},
-							"tail": {
-								"$ref": "AAAAAAFsGM/RYlyxdYE="
-							},
-							"lineStyle": 2,
-							"points": "440:285;440:312;400:312",
-							"nameLabel": {
-								"$ref": "AAAAAAFsGNGK6lz1E74="
+								"$ref": "AAAAAAFsIsYvnJ11xr4="
 							}
 						},
 						{
 							"_type": "FCDecisionView",
-							"_id": "AAAAAAFsGNJRzF0E5a8=",
+							"_id": "AAAAAAFsIsf2bZ2G72g=",
 							"_parent": {
 								"$ref": "AAAAAAFsGMzfu1xWnKM="
 							},
 							"model": {
-								"$ref": "AAAAAAFsGNJRzF0C0CA="
+								"$ref": "AAAAAAFsIsf2bZ2Ew3s="
 							},
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAFsGNJRzF0FGFM=",
+									"_id": "AAAAAAFsIsf2bZ2Hpno=",
 									"_parent": {
-										"$ref": "AAAAAAFsGNJRzF0E5a8="
+										"$ref": "AAAAAAFsIsf2bZ2G72g="
 									},
 									"font": "Arial;13;0",
-									"left": 246,
-									"top": 381,
-									"width": 60,
-									"height": 26,
-									"text": "Seat Free?",
+									"left": 246.25,
+									"top": 315.5,
+									"width": 76.5,
+									"height": 39,
+									"text": "Need to be in hospital",
 									"wordWrap": true
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 216,
-							"top": 368,
-							"width": 120,
-							"height": 52,
+							"left": 208,
+							"top": 296,
+							"width": 153,
+							"height": 78,
 							"nameLabel": {
-								"$ref": "AAAAAAFsGNJRzF0FGFM="
+								"$ref": "AAAAAAFsIsf2bZ2Hpno="
 							}
 						},
 						{
 							"_type": "FCFlowView",
-							"_id": "AAAAAAFsGNLSIl10Phk=",
+							"_id": "AAAAAAFsIsf2vp2OzHU=",
 							"_parent": {
 								"$ref": "AAAAAAFsGMzfu1xWnKM="
 							},
 							"model": {
-								"$ref": "AAAAAAFsGNLSIl1y3yU="
+								"$ref": "AAAAAAFsIsf2vp2MmWg="
 							},
 							"subViews": [
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFsGNLSIl11xEI=",
+									"_id": "AAAAAAFsIsf2vp2PCws=",
 									"_parent": {
-										"$ref": "AAAAAAFsGNLSIl10Phk="
+										"$ref": "AAAAAAFsIsf2vp2OzHU="
 									},
 									"model": {
-										"$ref": "AAAAAAFsGNLSIl1y3yU="
+										"$ref": "AAAAAAFsIsf2vp2MmWg="
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 293,
-									"top": 341,
+									"left": 294,
+									"top": 257,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAFsGNLSIl10Phk="
+										"$ref": "AAAAAAFsIsf2vp2OzHU="
 									},
 									"edgePosition": 1
 								}
 							],
 							"font": "Arial;13;0",
 							"head": {
-								"$ref": "AAAAAAFsGNJRzF0E5a8="
+								"$ref": "AAAAAAFsIsf2bZ2G72g="
 							},
 							"tail": {
-								"$ref": "AAAAAAFsGM9LlFyZ3x8="
+								"$ref": "AAAAAAFsIsYvVZ1s3Ts="
 							},
 							"lineStyle": 2,
-							"points": "279:328;279:368",
+							"points": "280:232;280:296",
 							"nameLabel": {
-								"$ref": "AAAAAAFsGNLSIl11xEI="
+								"$ref": "AAAAAAFsIsf2vp2PCws="
 							}
 						},
 						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAFsGNLtel19Phw=",
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFsIskAk527HRI=",
 							"_parent": {
 								"$ref": "AAAAAAFsGMzfu1xWnKM="
 							},
 							"model": {
-								"$ref": "AAAAAAFsGNLtel17vUs="
+								"$ref": "AAAAAAFsIskAkp25yzo="
 							},
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAFsGNLtel1++5M=",
+									"_id": "AAAAAAFsIskAk528O7U=",
 									"_parent": {
-										"$ref": "AAAAAAFsGNLtel19Phw="
+										"$ref": "AAAAAAFsIskAk527HRI="
 									},
 									"font": "Arial;13;0",
-									"left": 186,
-									"top": 482,
-									"width": 157,
-									"height": 26,
-									"text": "Customer sit and have meal",
+									"left": 234.25,
+									"top": 459.5,
+									"width": 84.5,
+									"height": 39,
+									"text": "Need to take medicine",
 									"wordWrap": true
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 176,
-							"top": 472,
-							"width": 177,
-							"height": 46,
+							"left": 192,
+							"top": 440,
+							"width": 169,
+							"height": 78,
 							"nameLabel": {
-								"$ref": "AAAAAAFsGNLtel1++5M="
+								"$ref": "AAAAAAFsIskAk528O7U="
 							}
 						},
 						{
 							"_type": "FCFlowView",
-							"_id": "AAAAAAFsGNLtvV2FDx8=",
+							"_id": "AAAAAAFsIskA5Z3D3os=",
 							"_parent": {
 								"$ref": "AAAAAAFsGMzfu1xWnKM="
 							},
 							"model": {
-								"$ref": "AAAAAAFsGNLtvV2DP+4="
+								"$ref": "AAAAAAFsIskA5Z3Bt+8="
 							},
 							"subViews": [
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFsGNLtvV2GiKE=",
+									"_id": "AAAAAAFsIskA5Z3EKgg=",
 									"_parent": {
-										"$ref": "AAAAAAFsGNLtvV2FDx8="
+										"$ref": "AAAAAAFsIskA5Z3D3os="
 									},
 									"model": {
-										"$ref": "AAAAAAFsGNLtvV2DP+4="
+										"$ref": "AAAAAAFsIskA5Z3Bt+8="
 									},
 									"font": "Arial;13;0",
 									"left": 284,
-									"top": 438,
-									"width": 21.20751953125,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFsGNLtvV2FDx8="
-									},
-									"edgePosition": 1,
-									"text": "Yes"
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFsGNLtel19Phw="
-							},
-							"tail": {
-								"$ref": "AAAAAAFsGNJRzF0E5a8="
-							},
-							"lineStyle": 2,
-							"points": "280:419;280:472",
-							"nameLabel": {
-								"$ref": "AAAAAAFsGNLtvV2GiKE="
-							}
-						},
-						{
-							"_type": "FCProcessView",
-							"_id": "AAAAAAFsGNOinl2UM2M=",
-							"_parent": {
-								"$ref": "AAAAAAFsGMzfu1xWnKM="
-							},
-							"model": {
-								"$ref": "AAAAAAFsGNOinl2SQD8="
-							},
-							"subViews": [
-								{
-									"_type": "LabelView",
-									"_id": "AAAAAAFsGNOin12VuK8=",
-									"_parent": {
-										"$ref": "AAAAAAFsGNOinl2UM2M="
-									},
-									"font": "Arial;13;0",
-									"left": 386,
-									"top": 426,
-									"width": 157,
-									"height": 26,
-									"text": "Customer wait in queue for seat",
-									"wordWrap": true
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 376,
-							"top": 416,
-							"width": 177,
-							"height": 46,
-							"nameLabel": {
-								"$ref": "AAAAAAFsGNOin12VuK8="
-							}
-						},
-						{
-							"_type": "FCFlowView",
-							"_id": "AAAAAAFsGNOi4V2cZac=",
-							"_parent": {
-								"$ref": "AAAAAAFsGMzfu1xWnKM="
-							},
-							"model": {
-								"$ref": "AAAAAAFsGNOi4V2afVo="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFsGNOi4V2dHfo=",
-									"_parent": {
-										"$ref": "AAAAAAFsGNOi4V2cZac="
-									},
-									"model": {
-										"$ref": "AAAAAAFsGNOi4V2afVo="
-									},
-									"font": "Arial;13;0",
-									"left": 406,
-									"top": 385,
+									"top": 399,
 									"width": 16.6181640625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAFsGNOi4V2cZac="
+										"$ref": "AAAAAAFsIskA5Z3D3os="
 									},
 									"edgePosition": 1,
 									"text": "No"
@@ -663,139 +378,345 @@
 							],
 							"font": "Arial;13;0",
 							"head": {
-								"$ref": "AAAAAAFsGNOinl2UM2M="
+								"$ref": "AAAAAAFsIskAk527HRI="
 							},
 							"tail": {
-								"$ref": "AAAAAAFsGNJRzF0E5a8="
+								"$ref": "AAAAAAFsIsf2bZ2G72g="
 							},
 							"lineStyle": 2,
-							"points": "335:392;400:392;400:416",
+							"points": "278:373;278:440",
 							"nameLabel": {
-								"$ref": "AAAAAAFsGNOi4V2dHfo="
-							}
-						},
-						{
-							"_type": "FCFlowView",
-							"_id": "AAAAAAFsGNSO0129GQ4=",
-							"_parent": {
-								"$ref": "AAAAAAFsGMzfu1xWnKM="
-							},
-							"model": {
-								"$ref": "AAAAAAFsGNSO0127Whk="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFsGNSO012+Gvc=",
-									"_parent": {
-										"$ref": "AAAAAAFsGNSO0129GQ4="
-									},
-									"model": {
-										"$ref": "AAAAAAFsGNSO0127Whk="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 399,
-									"top": 497,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFsGNSO0129GQ4="
-									},
-									"edgePosition": 1
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFsGNLtel19Phw="
-							},
-							"tail": {
-								"$ref": "AAAAAAFsGNOinl2UM2M="
-							},
-							"lineStyle": 2,
-							"points": "400:461;400:488;352:488",
-							"nameLabel": {
-								"$ref": "AAAAAAFsGNSO012+Gvc="
+								"$ref": "AAAAAAFsIskA5Z3EKgg="
 							}
 						},
 						{
 							"_type": "FCProcessView",
-							"_id": "AAAAAAFsGNUAw13VB+Y=",
+							"_id": "AAAAAAFsIskbzJ3md7A=",
 							"_parent": {
 								"$ref": "AAAAAAFsGMzfu1xWnKM="
 							},
 							"model": {
-								"$ref": "AAAAAAFsGNUAw13THOA="
+								"$ref": "AAAAAAFsIskby53k7EY="
 							},
 							"subViews": [
 								{
 									"_type": "LabelView",
-									"_id": "AAAAAAFsGNUAw13W5Uc=",
+									"_id": "AAAAAAFsIskbzJ3nEhY=",
 									"_parent": {
-										"$ref": "AAAAAAFsGNUAw13VB+Y="
+										"$ref": "AAAAAAFsIskbzJ3md7A="
 									},
 									"font": "Arial;13;0",
-									"left": 194,
-									"top": 597,
-									"width": 173,
+									"left": 410,
+									"top": 474,
+									"width": 141,
 									"height": 13,
-									"text": "Customer leave dining hall",
+									"text": "Patients be in hospital",
 									"wordWrap": true
 								}
 							],
 							"font": "Arial;13;0",
-							"left": 184,
-							"top": 587,
-							"width": 193,
+							"left": 400,
+							"top": 464,
+							"width": 161,
 							"height": 33,
 							"nameLabel": {
-								"$ref": "AAAAAAFsGNUAw13W5Uc="
+								"$ref": "AAAAAAFsIskbzJ3nEhY="
 							}
 						},
 						{
 							"_type": "FCFlowView",
-							"_id": "AAAAAAFsGNUBB13d7CI=",
+							"_id": "AAAAAAFsIskcHZ3uzLk=",
 							"_parent": {
 								"$ref": "AAAAAAFsGMzfu1xWnKM="
 							},
 							"model": {
-								"$ref": "AAAAAAFsGNUBB13bQn0="
+								"$ref": "AAAAAAFsIskcHZ3s8rk="
 							},
 							"subViews": [
 								{
 									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFsGNUBB13eQHM=",
+									"_id": "AAAAAAFsIskcHp3vkck=",
 									"_parent": {
-										"$ref": "AAAAAAFsGNUBB13d7CI="
+										"$ref": "AAAAAAFsIskcHZ3uzLk="
 									},
 									"model": {
-										"$ref": "AAAAAAFsGNUBB13bQn0="
+										"$ref": "AAAAAAFsIskcHZ3s8rk="
 									},
-									"visible": false,
 									"font": "Arial;13;0",
-									"left": 294,
-									"top": 545,
+									"left": 489,
+									"top": 329,
+									"width": 21.20751953125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
-										"$ref": "AAAAAAFsGNUBB13d7CI="
+										"$ref": "AAAAAAFsIskcHZ3uzLk="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFsIskbzJ3md7A="
+							},
+							"tail": {
+								"$ref": "AAAAAAFsIsf2bZ2G72g="
+							},
+							"lineStyle": 2,
+							"points": "360:336;484:336;484:464",
+							"nameLabel": {
+								"$ref": "AAAAAAFsIskcHp3vkck="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFsIsopJJ4GUkI=",
+							"_parent": {
+								"$ref": "AAAAAAFsGMzfu1xWnKM="
+							},
+							"model": {
+								"$ref": "AAAAAAFsIsopI54El9E="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFsIsopJJ4HY4s=",
+									"_parent": {
+										"$ref": "AAAAAAFsIsopJJ4GUkI="
+									},
+									"font": "Arial;13;0",
+									"left": 218,
+									"top": 634,
+									"width": 133,
+									"height": 13,
+									"text": "Patient leave hospital",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 208,
+							"top": 624,
+							"width": 153,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFsIsopJJ4HY4s="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFsIsopY54OiPI=",
+							"_parent": {
+								"$ref": "AAAAAAFsGMzfu1xWnKM="
+							},
+							"model": {
+								"$ref": "AAAAAAFsIsopYp4MX7Q="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFsIsopY54PXnI=",
+									"_parent": {
+										"$ref": "AAAAAAFsIsopY54OiPI="
+									},
+									"model": {
+										"$ref": "AAAAAAFsIsopYp4MX7Q="
+									},
+									"font": "Arial;13;0",
+									"left": 286,
+									"top": 563,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFsIsopY54OiPI="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFsIsopJJ4GUkI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFsIskAk527HRI="
+							},
+							"lineStyle": 2,
+							"points": "280:517;280:624",
+							"nameLabel": {
+								"$ref": "AAAAAAFsIsopY54PXnI="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFsIso5HZ4Xpho=",
+							"_parent": {
+								"$ref": "AAAAAAFsGMzfu1xWnKM="
+							},
+							"model": {
+								"$ref": "AAAAAAFsIso5HJ4VfbM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFsIso5HZ4YFio=",
+									"_parent": {
+										"$ref": "AAAAAAFsIso5HZ4Xpho="
+									},
+									"font": "Arial;13;0",
+									"left": 66,
+									"top": 538,
+									"width": 133,
+									"height": 13,
+									"text": "Patients take medicine",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 56,
+							"top": 528,
+							"width": 153,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFsIso5HZ4YFio="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFsIso5ZJ4f2xI=",
+							"_parent": {
+								"$ref": "AAAAAAFsGMzfu1xWnKM="
+							},
+							"model": {
+								"$ref": "AAAAAAFsIso5ZJ4deeo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFsIso5ZJ4gP1w=",
+									"_parent": {
+										"$ref": "AAAAAAFsIso5ZJ4f2xI="
+									},
+									"model": {
+										"$ref": "AAAAAAFsIso5ZJ4deeo="
+									},
+									"font": "Arial;13;0",
+									"left": 132,
+									"top": 464,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 2.191045266606707,
+									"distance": 17.204650534085253,
+									"hostEdge": {
+										"$ref": "AAAAAAFsIso5ZJ4f2xI="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFsIso5HZ4Xpho="
+							},
+							"tail": {
+								"$ref": "AAAAAAFsIskAk527HRI="
+							},
+							"lineStyle": 2,
+							"points": "192:480;128:480;128:528",
+							"nameLabel": {
+								"$ref": "AAAAAAFsIso5ZJ4gP1w="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFsIstOI5425vc=",
+							"_parent": {
+								"$ref": "AAAAAAFsGMzfu1xWnKM="
+							},
+							"model": {
+								"$ref": "AAAAAAFsIstOI540HiI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFsIstOI543Dq4=",
+									"_parent": {
+										"$ref": "AAAAAAFsIstOI5425vc="
+									},
+									"model": {
+										"$ref": "AAAAAAFsIstOI540HiI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 128,
+									"top": 619,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFsIstOI5425vc="
 									},
 									"edgePosition": 1
 								}
 							],
 							"font": "Arial;13;0",
 							"head": {
-								"$ref": "AAAAAAFsGNUAw13VB+Y="
+								"$ref": "AAAAAAFsIsopJJ4GUkI="
 							},
 							"tail": {
-								"$ref": "AAAAAAFsGNLtel19Phw="
+								"$ref": "AAAAAAFsIso5HZ4Xpho="
 							},
 							"lineStyle": 2,
-							"points": "280:517;280:587",
+							"points": "128:560;128:640;208:640",
 							"nameLabel": {
-								"$ref": "AAAAAAFsGNUBB13eQHM="
+								"$ref": "AAAAAAFsIstOI543Dq4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFsIsxF1J5TUj4=",
+							"_parent": {
+								"$ref": "AAAAAAFsGMzfu1xWnKM="
+							},
+							"model": {
+								"$ref": "AAAAAAFsIsxF1J5RxFs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFsIsxF1p5UGdE=",
+									"_parent": {
+										"$ref": "AAAAAAFsIsxF1J5TUj4="
+									},
+									"model": {
+										"$ref": "AAAAAAFsIsxF1J5RxFs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 487,
+									"top": 649,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFsIsxF1J5TUj4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFsIsopJJ4GUkI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFsIskbzJ3md7A="
+							},
+							"lineStyle": 2,
+							"points": "488:496;488:640;360:640",
+							"nameLabel": {
+								"$ref": "AAAAAAFsIsxF1p5UGdE="
 							}
 						}
 					]
@@ -806,7 +727,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFsGMzfu1xVEzk="
 					},
-					"name": "Customer arrive at dining hall",
+					"name": "Patients arrive at community client",
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
@@ -824,54 +745,16 @@
 					]
 				},
 				{
-					"_type": "FCDecision",
-					"_id": "AAAAAAFsGM5lfVxx4eY=",
-					"_parent": {
-						"$ref": "AAAAAAFsGMzfu1xVEzk="
-					},
-					"name": "Window Free？",
-					"ownedElements": [
-						{
-							"_type": "FCFlow",
-							"_id": "AAAAAAFsGM+fUVylSpg=",
-							"_parent": {
-								"$ref": "AAAAAAFsGM5lfVxx4eY="
-							},
-							"name": "Yes",
-							"source": {
-								"$ref": "AAAAAAFsGM5lfVxx4eY="
-							},
-							"target": {
-								"$ref": "AAAAAAFsGM9LlFyXxQw="
-							}
-						},
-						{
-							"_type": "FCFlow",
-							"_id": "AAAAAAFsGNCJwVzVeUo=",
-							"_parent": {
-								"$ref": "AAAAAAFsGM5lfVxx4eY="
-							},
-							"name": "No",
-							"source": {
-								"$ref": "AAAAAAFsGM5lfVxx4eY="
-							},
-							"target": {
-								"$ref": "AAAAAAFsGM/RYlyv5Gc="
-							}
-						}
-					]
-				},
-				{
 					"_type": "FCProcess",
 					"_id": "AAAAAAFsGM69elx70IU=",
 					"_parent": {
 						"$ref": "AAAAAAFsGMzfu1xVEzk="
 					},
-					"name": "Customer choose window",
+					"name": "Patients register in the hospital",
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
-							"_id": "AAAAAAFsGM8dhVyOCwI=",
+							"_id": "AAAAAAFsIsYvnJ1yFpU=",
 							"_parent": {
 								"$ref": "AAAAAAFsGM69elx70IU="
 							},
@@ -879,148 +762,163 @@
 								"$ref": "AAAAAAFsGM69elx70IU="
 							},
 							"target": {
-								"$ref": "AAAAAAFsGM5lfVxx4eY="
+								"$ref": "AAAAAAFsIsYvVZ1q4oU="
 							}
 						}
 					]
 				},
 				{
 					"_type": "FCProcess",
-					"_id": "AAAAAAFsGM9LlFyXxQw=",
+					"_id": "AAAAAAFsIsYvVZ1q4oU=",
 					"_parent": {
 						"$ref": "AAAAAAFsGMzfu1xVEzk="
 					},
-					"name": "Customer get meal",
+					"name": "Patients visit doctor",
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
-							"_id": "AAAAAAFsGNLSIl1y3yU=",
+							"_id": "AAAAAAFsIsf2vp2MmWg=",
 							"_parent": {
-								"$ref": "AAAAAAFsGM9LlFyXxQw="
+								"$ref": "AAAAAAFsIsYvVZ1q4oU="
 							},
 							"source": {
-								"$ref": "AAAAAAFsGM9LlFyXxQw="
+								"$ref": "AAAAAAFsIsYvVZ1q4oU="
 							},
 							"target": {
-								"$ref": "AAAAAAFsGNJRzF0C0CA="
-							}
-						}
-					]
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAFsGM/RYlyv5Gc=",
-					"_parent": {
-						"$ref": "AAAAAAFsGMzfu1xVEzk="
-					},
-					"name": "Customer wait in queue for meal",
-					"ownedElements": [
-						{
-							"_type": "FCFlow",
-							"_id": "AAAAAAFsGNGK6VzyF90=",
-							"_parent": {
-								"$ref": "AAAAAAFsGM/RYlyv5Gc="
-							},
-							"source": {
-								"$ref": "AAAAAAFsGM/RYlyv5Gc="
-							},
-							"target": {
-								"$ref": "AAAAAAFsGM9LlFyXxQw="
+								"$ref": "AAAAAAFsIsf2bZ2Ew3s="
 							}
 						}
 					]
 				},
 				{
 					"_type": "FCDecision",
-					"_id": "AAAAAAFsGNJRzF0C0CA=",
+					"_id": "AAAAAAFsIsf2bZ2Ew3s=",
 					"_parent": {
 						"$ref": "AAAAAAFsGMzfu1xVEzk="
 					},
-					"name": "Seat Free?",
+					"name": "Need to be in hospital",
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
-							"_id": "AAAAAAFsGNLtvV2DP+4=",
+							"_id": "AAAAAAFsIskA5Z3Bt+8=",
 							"_parent": {
-								"$ref": "AAAAAAFsGNJRzF0C0CA="
+								"$ref": "AAAAAAFsIsf2bZ2Ew3s="
 							},
-							"name": "Yes",
+							"name": "No",
 							"source": {
-								"$ref": "AAAAAAFsGNJRzF0C0CA="
+								"$ref": "AAAAAAFsIsf2bZ2Ew3s="
 							},
 							"target": {
-								"$ref": "AAAAAAFsGNLtel17vUs="
+								"$ref": "AAAAAAFsIskAkp25yzo="
 							}
 						},
 						{
 							"_type": "FCFlow",
-							"_id": "AAAAAAFsGNOi4V2afVo=",
+							"_id": "AAAAAAFsIskcHZ3s8rk=",
 							"_parent": {
-								"$ref": "AAAAAAFsGNJRzF0C0CA="
+								"$ref": "AAAAAAFsIsf2bZ2Ew3s="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAFsIsf2bZ2Ew3s="
+							},
+							"target": {
+								"$ref": "AAAAAAFsIskby53k7EY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFsIskAkp25yzo=",
+					"_parent": {
+						"$ref": "AAAAAAFsGMzfu1xVEzk="
+					},
+					"name": "Need to take medicine",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFsIsopYp4MX7Q=",
+							"_parent": {
+								"$ref": "AAAAAAFsIskAkp25yzo="
 							},
 							"name": "No",
 							"source": {
-								"$ref": "AAAAAAFsGNJRzF0C0CA="
+								"$ref": "AAAAAAFsIskAkp25yzo="
 							},
 							"target": {
-								"$ref": "AAAAAAFsGNOinl2SQD8="
+								"$ref": "AAAAAAFsIsopI54El9E="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFsIso5ZJ4deeo=",
+							"_parent": {
+								"$ref": "AAAAAAFsIskAkp25yzo="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAFsIskAkp25yzo="
+							},
+							"target": {
+								"$ref": "AAAAAAFsIso5HJ4VfbM="
 							}
 						}
 					]
 				},
 				{
 					"_type": "FCProcess",
-					"_id": "AAAAAAFsGNLtel17vUs=",
+					"_id": "AAAAAAFsIskby53k7EY=",
 					"_parent": {
 						"$ref": "AAAAAAFsGMzfu1xVEzk="
 					},
-					"name": "Customer sit and have meal",
+					"name": "Patients be in hospital",
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
-							"_id": "AAAAAAFsGNUBB13bQn0=",
+							"_id": "AAAAAAFsIsxF1J5RxFs=",
 							"_parent": {
-								"$ref": "AAAAAAFsGNLtel17vUs="
+								"$ref": "AAAAAAFsIskby53k7EY="
 							},
 							"source": {
-								"$ref": "AAAAAAFsGNLtel17vUs="
+								"$ref": "AAAAAAFsIskby53k7EY="
 							},
 							"target": {
-								"$ref": "AAAAAAFsGNUAw13THOA="
+								"$ref": "AAAAAAFsIsopI54El9E="
 							}
 						}
 					]
 				},
 				{
 					"_type": "FCProcess",
-					"_id": "AAAAAAFsGNOinl2SQD8=",
+					"_id": "AAAAAAFsIsopI54El9E=",
 					"_parent": {
 						"$ref": "AAAAAAFsGMzfu1xVEzk="
 					},
-					"name": "Customer wait in queue for seat",
+					"name": "Patient leave hospital"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFsIso5HJ4VfbM=",
+					"_parent": {
+						"$ref": "AAAAAAFsGMzfu1xVEzk="
+					},
+					"name": "Patients take medicine",
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
-							"_id": "AAAAAAFsGNSO0127Whk=",
+							"_id": "AAAAAAFsIstOI540HiI=",
 							"_parent": {
-								"$ref": "AAAAAAFsGNOinl2SQD8="
+								"$ref": "AAAAAAFsIso5HJ4VfbM="
 							},
 							"source": {
-								"$ref": "AAAAAAFsGNOinl2SQD8="
+								"$ref": "AAAAAAFsIso5HJ4VfbM="
 							},
 							"target": {
-								"$ref": "AAAAAAFsGNLtel17vUs="
+								"$ref": "AAAAAAFsIsopI54El9E="
 							}
 						}
 					]
-				},
-				{
-					"_type": "FCProcess",
-					"_id": "AAAAAAFsGNUAw13THOA=",
-					"_parent": {
-						"$ref": "AAAAAAFsGMzfu1xVEzk="
-					},
-					"name": "Customer leave dining hall"
 				}
 			]
 		}
